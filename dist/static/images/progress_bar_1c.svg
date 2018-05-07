@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="667px" height="72px" viewBox="0 0 667 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>progress-bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="30" height="30" rx="15"></rect>
+        <rect id="path-2" x="31" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-3" x="31" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-4" x="31" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-5" x="31" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-6" x="31" y="4" width="30" height="30" rx="15"></rect>
+    </defs>
+    <g id="✅-05-validar-correo-y-movíl" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Validar1---Large-Device-Desktops" transform="translate(-267.000000, -119.000000)">
+            <g id="progress-bar/desktop" transform="translate(216.000000, 116.000000)">
+                <g id="progress-bar/desktop/right/state/normal" transform="translate(580.000000, -1.000000)">
+                    <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(59.000000, 19.000000) scale(-1, 1) translate(-59.000000, -19.000000) translate(-1.000000, 4.000000)">
+                        <path d="M27,15 L119.5,15" id="Line-2" stroke="#D1D3D4" stroke-linecap="square"></path>
+                        <g id="Rectangle-7">
+                            <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#D1D3D4" stroke-width="1" x="0.5" y="0.5" width="29" height="29" rx="14.5"></rect>
+                        </g>
+                    </g>
+                    <text id="Text" font-family="Arimo" font-size="14" font-weight="normal" fill="#A7A9AC">
+                        <tspan x="74.5932617" y="57">Finalizado</tspan>
+                    </text>
+                </g>
+                <g id="progress-bar/desktop/left/state/normal" transform="translate(519.000000, -1.000000)">
+                    <text id="Text" font-family="Arimo" font-size="14" font-weight="normal" fill="#A7A9AC">
+                        <tspan x="20.1518555" y="57">Ingresa </tspan>
+                        <tspan x="8.86572266" y="73">contraseña</tspan>
+                    </text>
+                    <path d="M58,19 L150.5,19" id="Line-2" stroke="#D1D3D4" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#D1D3D4" stroke-width="1" x="31.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                </g>
+                <g id="progress-bar/desktop/left/state/active" transform="translate(399.000000, -1.000000)">
+                    <path d="M58,19 L150.5,19" id="Line-2" stroke="#D1D3D4" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#00448D" stroke-width="1" x="31.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                    <path d="M41.48,20.12 C41.0533312,20.12 40.7000014,19.9766681 40.42,19.69 C40.1399986,19.4033319 40,19.0466688 40,18.62 C40,18.1933312 40.1399986,17.8366681 40.42,17.55 C40.7000014,17.2633319 41.0533312,17.12 41.48,17.12 C41.9066688,17.12 42.2599986,17.2633319 42.54,17.55 C42.8200014,17.8366681 42.96,18.1933312 42.96,18.62 C42.96,19.0466688 42.8200014,19.4033319 42.54,19.69 C42.2599986,19.9766681 41.9066688,20.12 41.48,20.12 Z M46.46,20.12 C46.0333312,20.12 45.6800014,19.9766681 45.4,19.69 C45.1199986,19.4033319 44.98,19.0466688 44.98,18.62 C44.98,18.1933312 45.1199986,17.8366681 45.4,17.55 C45.6800014,17.2633319 46.0333312,17.12 46.46,17.12 C46.8733354,17.12 47.2199986,17.2633319 47.5,17.55 C47.7800014,17.8366681 47.92,18.1933312 47.92,18.62 C47.92,19.0466688 47.7800014,19.4033319 47.5,19.69 C47.2199986,19.9766681 46.8733354,20.12 46.46,20.12 Z M51.42,20.12 C50.9933312,20.12 50.6400014,19.9766681 50.36,19.69 C50.0799986,19.4033319 49.94,19.0466688 49.94,18.62 C49.94,18.1933312 50.0799986,17.8366681 50.36,17.55 C50.6400014,17.2633319 50.9933312,17.12 51.42,17.12 C51.8466688,17.12 52.1999986,17.2633319 52.48,17.55 C52.7600014,17.8366681 52.9,18.1933312 52.9,18.62 C52.9,19.0466688 52.7600014,19.4033319 52.48,19.69 C52.1999986,19.9766681 51.8466688,20.12 51.42,20.12 Z" id="…" fill="#00448D" fill-rule="evenodd"></path>
+                    <text id="Text" font-family="Arimo" font-size="14" font-weight="normal" fill="#00448D">
+                        <tspan x="2.25537109" y="57">Válida correo </tspan>
+                        <tspan x="13.1450195" y="73">y teléfono</tspan>
+                    </text>
+                </g>
+                <g id="progress-bar/desktop/left/state/filled" transform="translate(279.000000, -1.000000)">
+                    <path d="M58,19 L150.5,19" id="Line-2" stroke="#00448D" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#00448D" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#00448D" stroke-width="1" x="31.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                    <path d="M54.6495758,15.1740942 C54.6495758,15.4531124 54.5379685,15.7321306 54.3370754,15.9330237 L44.7388497,25.5312494 C44.5379566,25.7321425 44.2589384,25.8437498 43.9799202,25.8437498 C43.700902,25.8437498 43.4218838,25.7321425 43.2209908,25.5312494 L37.6629484,19.9732071 C37.4620553,19.772314 37.350448,19.4932958 37.350448,19.2142776 C37.350448,18.9352594 37.4620553,18.6562412 37.6629484,18.4553481 L39.1808074,16.9374892 C39.3817005,16.7365961 39.6607186,16.6249888 39.9397368,16.6249888 C40.218755,16.6249888 40.4977732,16.7365961 40.6986663,16.9374892 L43.9799202,20.2299038 L51.3013575,12.8973058 C51.5022506,12.6964127 51.7812688,12.5848054 52.060287,12.5848054 C52.3393052,12.5848054 52.6183234,12.6964127 52.8192165,12.8973058 L54.3370754,14.4151648 C54.5379685,14.6160579 54.6495758,14.895076 54.6495758,15.1740942 Z" id="Check---FontAwesome" fill="#FFFFFF" fill-rule="evenodd"></path>
+                    <text id="Text" font-family="Arimo" font-size="14" font-weight="normal" fill="#00448D">
+                        <tspan x="1.85888672" y="57">Preguntas de </tspan>
+                        <tspan x="12.7553711" y="73">seguridad</tspan>
+                    </text>
+                </g>
+                <g id="progress-bar/desktop/left/state/filled" transform="translate(159.000000, -1.000000)">
+                    <path d="M58,19 L150.5,19" id="Line-2" stroke="#00448D" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#00448D" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#00448D" stroke-width="1" x="31.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                    <path d="M54.6495758,15.1740942 C54.6495758,15.4531124 54.5379685,15.7321306 54.3370754,15.9330237 L44.7388497,25.5312494 C44.5379566,25.7321425 44.2589384,25.8437498 43.9799202,25.8437498 C43.700902,25.8437498 43.4218838,25.7321425 43.2209908,25.5312494 L37.6629484,19.9732071 C37.4620553,19.772314 37.350448,19.4932958 37.350448,19.2142776 C37.350448,18.9352594 37.4620553,18.6562412 37.6629484,18.4553481 L39.1808074,16.9374892 C39.3817005,16.7365961 39.6607186,16.6249888 39.9397368,16.6249888 C40.218755,16.6249888 40.4977732,16.7365961 40.6986663,16.9374892 L43.9799202,20.2299038 L51.3013575,12.8973058 C51.5022506,12.6964127 51.7812688,12.5848054 52.060287,12.5848054 C52.3393052,12.5848054 52.6183234,12.6964127 52.8192165,12.8973058 L54.3370754,14.4151648 C54.5379685,14.6160579 54.6495758,14.895076 54.6495758,15.1740942 Z" id="Check---FontAwesome" fill="#FFFFFF" fill-rule="evenodd"></path>
+                    <text id="Text" font-family="Arimo" font-size="14" font-weight="normal" fill="#00448D">
+                        <tspan x="8.8828125" y="57">Términos y </tspan>
+                        <tspan x="6.53125" y="73">condiciones</tspan>
+                    </text>
+                </g>
+                <g id="progress-bar/desktop/left/state/filled" transform="translate(39.000000, 0.000000)">
+                    <path d="M58,19 L150.5,19" id="Line-2" stroke="#00448D" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#00448D" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <rect stroke="#00448D" stroke-width="1" x="31.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                    <path d="M54.6495758,15.1740942 C54.6495758,15.4531124 54.5379685,15.7321306 54.3370754,15.9330237 L44.7388497,25.5312494 C44.5379566,25.7321425 44.2589384,25.8437498 43.9799202,25.8437498 C43.700902,25.8437498 43.4218838,25.7321425 43.2209908,25.5312494 L37.6629484,19.9732071 C37.4620553,19.772314 37.350448,19.4932958 37.350448,19.2142776 C37.350448,18.9352594 37.4620553,18.6562412 37.6629484,18.4553481 L39.1808074,16.9374892 C39.3817005,16.7365961 39.6607186,16.6249888 39.9397368,16.6249888 C40.218755,16.6249888 40.4977732,16.7365961 40.6986663,16.9374892 L43.9799202,20.2299038 L51.3013575,12.8973058 C51.5022506,12.6964127 51.7812688,12.5848054 52.060287,12.5848054 C52.3393052,12.5848054 52.6183234,12.6964127 52.8192165,12.8973058 L54.3370754,14.4151648 C54.5379685,14.6160579 54.6495758,14.895076 54.6495758,15.1740942 Z" id="Check---FontAwesome" fill="#FFFFFF" fill-rule="evenodd"></path>
+                    <text id="Text" font-family="Arimo" font-size="14" font-weight="normal" fill="#00448D">
+                        <tspan x="11.2070312" y="57">Ingresa ID</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

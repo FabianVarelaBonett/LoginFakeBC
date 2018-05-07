@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="60px" viewBox="0 0 344 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>progress-bar/mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="33" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-2" x="33" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-3" x="33" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-4" x="33" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-5" x="33" y="4" width="30" height="30" rx="15"></rect>
+        <rect id="path-6" x="33" y="4" width="30" height="30" rx="15"></rect>
+    </defs>
+    <g id="✅-04-preguntas-de-seguridad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Preguntas---Extra-Small-Device-Phones" transform="translate(-67.000000, -157.000000)">
+            <g id="progress-bar/mobile" transform="translate(0.000000, 150.000000)">
+                <g id="progress-bar/mobile/right/state/normal" transform="translate(348.000000, 3.000000)">
+                    <path d="M0,19 L37.5,19" id="Line-2" stroke="#D1D3D4" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <rect stroke="#D1D3D4" stroke-width="1" x="33.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                </g>
+                <g id="progress-bar/mobile/left/state/normal" transform="translate(285.000000, 3.000000)">
+                    <path d="M58,19 L95.5,19" id="Line-2" stroke="#D1D3D4" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <rect stroke="#D1D3D4" stroke-width="1" x="33.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                </g>
+                <g id="progress-bar/mobile/left/state/normal" transform="translate(223.000000, 3.000000)">
+                    <path d="M58,19 L95.5,19" id="Line-2" stroke="#D1D3D4" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <rect stroke="#D1D3D4" stroke-width="1" x="33.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                </g>
+                <g id="progress-bar/mobile/left/state/active" transform="translate(160.000000, 3.000000)">
+                    <path d="M58,19 L95.5,19" id="Line-2" stroke="#D1D3D4" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#00448D" stroke-width="1" x="33.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                    <path d="M42.48,20 C42.0533312,20 41.7000014,19.8566681 41.42,19.57 C41.1399986,19.2833319 41,18.9266688 41,18.5 C41,18.0733312 41.1399986,17.7166681 41.42,17.43 C41.7000014,17.1433319 42.0533312,17 42.48,17 C42.9066688,17 43.2599986,17.1433319 43.54,17.43 C43.8200014,17.7166681 43.96,18.0733312 43.96,18.5 C43.96,18.9266688 43.8200014,19.2833319 43.54,19.57 C43.2599986,19.8566681 42.9066688,20 42.48,20 Z M47.46,20 C47.0333312,20 46.6800014,19.8566681 46.4,19.57 C46.1199986,19.2833319 45.98,18.9266688 45.98,18.5 C45.98,18.0733312 46.1199986,17.7166681 46.4,17.43 C46.6800014,17.1433319 47.0333312,17 47.46,17 C47.8733354,17 48.2199986,17.1433319 48.5,17.43 C48.7800014,17.7166681 48.92,18.0733312 48.92,18.5 C48.92,18.9266688 48.7800014,19.2833319 48.5,19.57 C48.2199986,19.8566681 47.8733354,20 47.46,20 Z M52.42,20 C51.9933312,20 51.6400014,19.8566681 51.36,19.57 C51.0799986,19.2833319 50.94,18.9266688 50.94,18.5 C50.94,18.0733312 51.0799986,17.7166681 51.36,17.43 C51.6400014,17.1433319 51.9933312,17 52.42,17 C52.8466688,17 53.1999986,17.1433319 53.48,17.43 C53.7600014,17.7166681 53.9,18.0733312 53.9,18.5 C53.9,18.9266688 53.7600014,19.2833319 53.48,19.57 C53.1999986,19.8566681 52.8466688,20 52.42,20 Z" id="…" fill="#00448D" fill-rule="evenodd"></path>
+                </g>
+                <g id="progress-bar/mobile/left/state/filled" transform="translate(97.000000, 3.000000)">
+                    <path d="M58,19 L95.5,19" id="Line-2" stroke="#00448D" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#00448D" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <rect stroke="#00448D" stroke-width="1" x="33.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                    <path d="M56.2991278,15.5892888 C56.2991278,15.868307 56.1875205,16.1473252 55.9866274,16.3482183 L46.3884017,25.946444 C46.1875086,26.1473371 45.9084904,26.2589444 45.6294722,26.2589444 C45.350454,26.2589444 45.0714358,26.1473371 44.8705427,25.946444 L39.3125004,20.3884017 C39.1116073,20.1875086 39,19.9084904 39,19.6294722 C39,19.350454 39.1116073,19.0714358 39.3125004,18.8705427 L40.8303593,17.3526838 C41.0312524,17.1517907 41.3102706,17.0401834 41.5892888,17.0401834 C41.868307,17.0401834 42.1473252,17.1517907 42.3482183,17.3526838 L45.6294722,20.6450984 L52.9509095,13.3125004 C53.1518026,13.1116073 53.4308208,13 53.709839,13 C53.9888572,13 54.2678753,13.1116073 54.4687684,13.3125004 L55.9866274,14.8303593 C56.1875205,15.0312524 56.2991278,15.3102706 56.2991278,15.5892888 Z" id="Check---FontAwesome" fill="#FFFFFF" fill-rule="evenodd"></path>
+                </g>
+                <g id="progress-bar/mobile/left/state/filled" transform="translate(34.000000, 3.000000)">
+                    <path d="M58,19 L95.5,19" id="Line-2" stroke="#00448D" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="Rectangle-7">
+                        <use fill="#00448D" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <rect stroke="#00448D" stroke-width="1" x="33.5" y="4.5" width="29" height="29" rx="14.5"></rect>
+                    </g>
+                    <path d="M56.2991278,15.5892888 C56.2991278,15.868307 56.1875205,16.1473252 55.9866274,16.3482183 L46.3884017,25.946444 C46.1875086,26.1473371 45.9084904,26.2589444 45.6294722,26.2589444 C45.350454,26.2589444 45.0714358,26.1473371 44.8705427,25.946444 L39.3125004,20.3884017 C39.1116073,20.1875086 39,19.9084904 39,19.6294722 C39,19.350454 39.1116073,19.0714358 39.3125004,18.8705427 L40.8303593,17.3526838 C41.0312524,17.1517907 41.3102706,17.0401834 41.5892888,17.0401834 C41.868307,17.0401834 42.1473252,17.1517907 42.3482183,17.3526838 L45.6294722,20.6450984 L52.9509095,13.3125004 C53.1518026,13.1116073 53.4308208,13 53.709839,13 C53.9888572,13 54.2678753,13.1116073 54.4687684,13.3125004 L55.9866274,14.8303593 C56.1875205,15.0312524 56.2991278,15.3102706 56.2991278,15.5892888 Z" id="Check---FontAwesome" fill="#FFFFFF" fill-rule="evenodd"></path>
+                </g>
+                <text id="Text" font-family="Arimo" font-size="14" font-weight="normal" fill="#00448D">
+                    <tspan x="166.169434" y="64">Preguntas de seguridad</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

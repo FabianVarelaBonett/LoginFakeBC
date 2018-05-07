@@ -16,7 +16,7 @@ export default {
   data () {
     return {
       title: 'Select logins',
-      msg: 'Choice a logion option'
+      msg: 'Choice a login option'
     }
   },
   methods: { }

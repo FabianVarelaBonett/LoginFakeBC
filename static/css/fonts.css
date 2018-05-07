@@ -1,0 +1,50 @@
+
+@font-face {
+	font-family: 'Conv_Nunito-Bold';
+	src: url('../fonts/Nunito-Bold.eot');
+	src: local('☺'), url('../fonts/Nunito-Bold.woff') format('woff'), url('../fonts/Nunito-Bold.ttf') format('truetype'), url('../fonts/Nunito-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Nunito-ExtraBold';
+	src: url('../fonts/Nunito-ExtraBold.eot');
+	src: local('☺'), url('../fonts/Nunito-ExtraBold.woff') format('woff'), url('../fonts/Nunito-ExtraBold.ttf') format('truetype'), url('../fonts/Nunito-ExtraBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('../fonts/Arimo.eot');
+    src: url('../fonts/Arimo.eot?#iefix') format('embedded-opentype'), url('../fonts/Arimo.woff') format('woff'), url('../fonts/Arimo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arimo-Bold';
+    src: url('../fonts/Arimo-Bold.eot');
+    src: url('../fonts/Arimo-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Arimo-Bold.woff') format('woff'), url('../fonts/Arimo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arimo-Italic';
+    src: url('../fonts/Arimo-Italic.eot');
+    src: url('../fonts/Arimo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arimo-Italic.woff') format('woff'),
+        url('../fonts/Arimo-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Arimo-BoldItalic';
+    src: url('../fonts/Arimo-BoldItalic.eot');
+    src: url('../fonts/Arimo-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Arimo-BoldItalic.woff') format('woff'), url('../fonts/Arimo-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}

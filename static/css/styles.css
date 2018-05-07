@@ -1,0 +1,1014 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+.ColorBodyBkg	{
+	background: #F2F2F2;
+}
+.ConfigBkg {
+	background:url(../images/settings_bkg.png) no-repeat 50% 100%;
+}
+
+/*SEPARADORES*/
+.clearTen {
+	width:100%;
+	height:10px;
+	clear: both;
+}
+.clearTwice {
+	width:100%;
+	height:20px;
+	clear: both;
+}
+.clearThird {
+	width:100%;
+	height:30px;
+	clear: both;
+}
+.clearFourth {
+	width:100%;
+	height:40px;
+	clear: both;
+}
+.clearFifth {
+	width:100%;
+	height:50px;
+	clear: both;
+}
+.w-hidden-main {
+  display: none !important;
+}
+/*FIN FLOAT Y SEPARADORES*/
+
+/*BOTONES*/
+.button-yellow {
+	width: 100%;
+	height: 65px;
+	border-radius: 100px;
+	font-family: 'Conv_Nunito-Bold';
+	font-size: 20px;
+	color: #5B5B5F;
+	text-align: center;
+	text-transform: uppercase;
+	background:url(../images/icon_arrow_button.svg) no-repeat 95% 50% #FFD900;
+}
+.button-yellow.hover {
+	background:url(../images/icon_arrow_button.svg) no-repeat 95% 50% #FFE600;
+}
+.button-yellow.active {
+	background:url(../images/icon_arrow_button.svg) no-repeat 95% 50% #FFC20E;
+}
+.button-yellow.disabled {
+	color: #CACACC;
+	background:url(../images/icon_arrow_button2.svg) no-repeat 95% 50% #E6E7E8;
+}
+/*FIN BOTONES*/
+
+/*LOGIN*/
+#app {
+	max-width:1200px;
+	height:800px;
+	margin:0px auto;
+	clear:both;
+	overflow:auto;
+	background: #F2F2F2;
+}
+.Login-LogoTop {
+	width:300px;
+	height:100px;
+	margin:0px auto;
+	clear:both;
+	background:url(../images/invesbot_logo.svg) no-repeat 50% 50%;
+	background-size: contain;
+	display: block;
+	padding: 48px 0px 48px 0px;
+}
+.Login-left {
+	width:50%;
+	height:800px;
+	float: left;
+	background:url(../images/login_image.png) no-repeat 0% 0%;
+	background-size: contain;
+	display: block;
+}
+.Login-Right {
+	width:50%;
+	height:800px;
+	float: right;
+	display: block;
+}
+.Login-Box {
+	width:80%;
+	height:auto;
+	margin:0px auto;
+	margin-top: 85px;
+	clear:both;
+	background:#FFF;
+	-webkit-box-shadow: 0 2px 24px 0 rgba(0,0,0,.10);
+	box-shadow: 0 2px 24px 0 rgba(0,0,0,.10);
+	display: block;
+}
+.Login-Box .Login-Fields {
+	width:80%;
+	height:auto;
+	margin:0px auto;
+	padding-top: 30px;
+	display: block;
+}
+.Login-Box .Login-Fields h1 {
+	font-family: 'Conv_Nunito-Bold';
+	font-size: 28px;
+	color: #58595B;
+	text-align: center;
+	line-height: 32px;
+	margin-bottom: 40px;
+
+}
+.Login-Box .Login-Fields h2 {
+    font-family: 'Arimo-Bold';
+	font-size: 16px;
+	color: #5B5B5F;
+	text-align: left;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+
+.Login-Box .Login-Fields input {
+	width: 100%;
+	height: 55px;
+	background: #FFFFFF;
+	border: 1px solid #D1D3D4;
+	border-radius: 3px;
+	font-family: Arimo;
+	font-size: 16px;
+	color: #A7A9AC;
+	text-align: left;
+	line-height: 18px;
+}
+.Login-Box .Login-Fields input.password {
+	background:url(../images/icon_lock_login.svg) no-repeat 95% 50%;
+}
+.Login-Box .Login-Teclado {
+	width: 80%;
+	height: 142px;
+	margin: 0px auto;
+	display: block;
+	background:url(../images/teclado_login.png) no-repeat 50% 50%;
+}
+.Login-Box .Login-Ingresar {
+	width: 90%;
+	height: 65px;
+	margin: 0px auto;
+	display: block;
+}
+.Login-Contrasena {
+	width: 90%;
+	height: 65px;
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+	padding-top: 25px;
+}
+.Login-Contrasena a {
+    font-family: 'Arimo';
+	font-size: 18px;
+	color: #5B5B5F;
+	text-align: center;
+	line-height: 22px;
+}
+.Login-Contrasena a:hover {
+	text-decoration: none;
+}
+
+/*HEADER*/
+Header {
+	max-width:100%;
+	height:230px;
+	margin:0px auto;
+	clear:both;
+	background: #F2F2F2;
+}
+Header.NoBkg {
+	height:auto;
+	background: #FFF;
+}
+.Wrap-Header {
+	max-width:1200px;
+	height:auto;
+	margin:0px auto;
+	clear:both;
+	background:url(../images/invesbot_logo.png) no-repeat 95% 20%;
+	background-size: 10%
+}
+.Wrap-Header h1 {
+	font-family: 'Conv_Nunito-Bold';
+	font-size: 40px;
+	color: #5B5B5F;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 40px;
+	padding-top: 40px;
+}
+.Wrap-Header h2 {
+	width: 660px;
+	margin: 0px auto;
+	margin-top: 50px;
+    font-family: 'Arimo-Bold';
+	font-size: 26px;
+	color: #5B5B5F;
+	text-align: center;
+}
+
+.Wrap-Header p {
+    font-family: 'Arimo';
+	font-size: 16px;
+	color: #5B5B5F;
+	text-align: left;
+	line-height: 24px;
+}
+.Header-Box-Text {
+	width: 660px;
+	height: auto;
+	margin: 0px auto;
+	display: block;
+	margin-top: 65px;
+}
+.Path-StepOne {
+	width: 80%;
+	height: 75px;
+	margin: 0px auto;
+	clear: both;
+	margin-top: 50px;
+	background:url(../images/progress_bar_1.svg) no-repeat 50% 50%;
+	background-size: contain;
+}
+.Path-StepTwo {
+	width: 80%;
+	height: 75px;
+	margin: 0px auto;
+	clear: both;
+	margin-top: 50px;
+	background:url(../images/progress_bar_1a.svg) no-repeat 50% 50%;
+	background-size: contain;
+}
+.Path-StepThree {
+	width: 80%;
+	height: 75px;
+	margin: 0px auto;
+	clear: both;
+	margin-top: 50px;
+	background:url(../images/progress_bar_1b.svg) no-repeat 50% 50%;
+	background-size: contain;
+}
+.Path-StepFour {
+	width: 80%;
+	height: 75px;
+	margin: 0px auto;
+	clear: both;
+	margin-top: 50px;
+	background:url(../images/progress_bar_1c.svg) no-repeat 50% 50%;
+	background-size: contain;
+}
+.Path-StepFive {
+	width: 80%;
+	height: 75px;
+	margin: 0px auto;
+	clear: both;
+	margin-top: 50px;
+	background:url(../images/progress_bar_1d.svg) no-repeat 50% 50%;
+	background-size: contain;
+}
+.Path-StepSix {
+	width: 80%;
+	height: 75px;
+	margin: 0px auto;
+	clear: both;
+	margin-top: 50px;
+	background:url(../images/progress_bar_1e.svg) no-repeat 50% 50%;
+	background-size: contain;
+}
+
+/*CONTENIDO*/
+.Wrap-Content {
+	max-width:1200px;
+	height:auto;
+	margin:0px auto;
+	clear:both;
+}
+.Wrap-Content.TokenBkg {
+	background:url(../images/icon_lock_bkg.svg) no-repeat 0% 100%;
+}
+
+.Content-Link {
+	width:100%;
+	height:auto;
+	margin:0px auto;
+	margin-top: 30px;
+	clear:both;
+}
+.Content-Link p {
+    font-family: 'Arimo';
+	font-size: 16px;
+	color: #5B5B5F;
+	text-align: center;
+}
+.Content-Link p a {
+	color: #00AEEF;
+	text-decoration: none;
+}
+.Content-Mensajex p a:hover {
+	text-decoration: underline;
+}
+
+.Content-Box {
+	width:40%;
+	height:auto;
+	margin:0px auto;
+	margin-top: 40px;
+	clear:both;
+	background:#FFF;
+	-webkit-box-shadow: 0 2px 24px 0 rgba(0,0,0,.10);
+	box-shadow: 0 2px 24px 0 rgba(0,0,0,.10);
+	display: block;
+}
+.Content-Box.NoBorder {
+	background:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	display: block;
+}
+.Content-Box h2 {
+    font-family: 'Arimo-Bold';
+	font-size: 16px;
+	color: #5B5B5F;
+	text-align: left;
+	line-height: 18px;
+	padding-bottom: 15px;
+}
+.Content-Box h2 a {
+    font-family: 'Arimo-Bold';
+	font-size: 14px;
+	color: #00AEEF;
+	text-align: right;
+	line-height: 22px;
+	text-decoration: none;
+	float: right;
+	clear: both;
+}
+.Content-Box h2 a:hover {
+	text-decoration: underline;
+}
+.Content-Box h2.error {
+	color: #C1141F;
+}
+.Content-Box h2.explicaerror {
+    font-family: 'Arimo';
+	color: #C1141F;
+	font-size: 14px;
+	font-style: italic;
+}
+.Content-Box h3 {
+	font-family: 'Conv_Nunito-Bold';
+	font-size: 30px;
+	color: #58595B;
+	text-align: left;
+	line-height: 32px;
+	padding-bottom: 40px;
+}
+.Content-Box h4 {
+	font-family: 'Conv_Nunito-ExtraBold';
+	font-size: 76px;
+	color: #00448C;
+	text-align: center;
+	line-height: 66px;
+}
+.Content-Box h5 {
+    font-family: 'Arimo';
+	font-size: 40px;
+	color: #5B5B5F;
+	text-align: center;
+	line-height: 42px;
+}
+.Content-Box h6 {
+    font-family: 'Arimo';
+	font-size: 16px;
+	color: #5B5B5F;
+	text-align: center;
+	line-height: 24px;
+}
+.Content-Box p {
+    font-family: 'Arimo';
+	font-size: 16px;
+	color: #5B5B5F;
+	text-align: left;
+	line-height: 24px;
+	padding-bottom: 20px;
+}
+.Content-Box p a {
+	color: #00AEEF;
+	text-decoration: none;
+}
+.Content-Box p a:hover {
+	text-decoration: underline;
+}
+.Content-Box ul {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.Content-Box ul div {
+	display: block;
+	float: left;
+	height: 40px;
+}
+.Content-Box ul li {
+    font-family: 'Arimo';
+	font-size: 16px;
+	color: #5B5B5F;
+	text-align: left;
+	line-height: 24px;	
+	display: block;
+	margin-bottom: 25px;
+}
+.Content-Box input {
+	width: 100%;
+	height: 55px;
+	background: #FFFFFF;
+	border: 1px solid #D1D3D4;
+	border-radius: 3px;
+	font-family: Arimo;
+	font-size: 16px;
+	color: #A7A9AC;
+	text-align: left;
+	line-height: 18px;
+}
+.Content-Box input.password {
+	background:url(../images/icon_lock_login.svg) no-repeat 95% 50%;
+}
+.Content-Box input.viewpassword {
+	background:url(../images/icon_eye_input.svg) no-repeat 95% 50%;
+}
+.Content-Box input.cancelviewpassword {
+	background:url(../images/icon_eye_cancel_input.svg) no-repeat 95% 50%;
+}
+.Content-Box input.active {
+	border: 1px solid #00448D;
+}
+.Content-Box input.filled {
+	border: 1px solid #939598;
+}
+.Content-Box input.error {
+	border: 1px solid #C1141F;
+}
+.Content-Box input.disabled {
+	background: #F0F0F0;
+	border: 1px solid #D1D3D4;
+}
+.Content-Box select {
+	width: 100%;
+	height: 55px;
+	border: 1px solid #D1D3D4;
+	border-radius: 3px;
+	font-family: Arimo;
+	font-size: 16px;
+	color: #A7A9AC;
+	text-align: left;
+	line-height: 18px;
+	background:url(../images/icon_arrow_select.svg) no-repeat 97% 50% #FFFFFF;
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none;  /*Removes default style Firefox*/
+}
+.Content-Box select.active {
+	border: 1px solid #00448D;
+}
+.Content-Box select.filled {
+	border: 1px solid #939598;
+}
+.Content-Box select.error {
+	border: 1px solid #C1141F;
+}
+.Content-Box select.disabled {
+	background: url(../images/icon_arrow_select.svg) no-repeat 97% 50% #F0F0F0;
+	border: 1px solid #D1D3D4;
+}
+.Content-Box input.radio {
+	width: 20px;
+	height: 20px;
+	background: #FFFFFF;
+	border: 1px solid #D1D3D4;
+}
+.Content-Bar {
+	width: 100%;
+	height: 15px;
+	margin: 0px auto;
+	display: block;
+	background: #EAEAEA;
+}
+.Content-Bar .Blue{
+	width: 75px;
+	height: 15px;
+	float: left;
+	background: #00448D;
+}
+.Content-Nav {
+	width: 85%;
+	height: 30px;
+	margin: 0px auto;
+	display: block;
+}
+.Content-Nav .ArrowLeft a{
+	width: 18px;
+	height: 30px;
+	float: left;
+	display: block;
+	text-indent: -99999px;
+	background:url(../images/slide_arrow_left_off.svg) no-repeat 0% 0%;
+}
+.Content-Nav .ArrowLeft a:hover {
+	background:url(../images/slide_arrow_left_on.svg) no-repeat 0% 0%;
+}
+.Content-Nav .ArrowRight a {
+	width: 18px;
+	height: 30px;
+	float: right;
+	display: block;
+	text-indent: -99999px;
+	background:url(../images/slide_arrow_right_on.svg) no-repeat 0% 0%;
+}
+.Content-Nav .ArrowRight a:hover {
+	background:url(../images/slide_arrow_right_off.svg) no-repeat 0% 0%;
+}
+.Content-wrap {
+	width: 70%;
+	margin: 0px auto;
+	display: block;
+}
+.Content-button {
+	width: 80%;
+	margin: 0px auto;
+	display: block;
+}
+.Content-Captcha {
+	width: 100%;
+	height: 90px;
+	margin: 0px auto;
+	display: block;
+	background:url(../images/captcha.png) no-repeat 50% 50%;
+	background-size: contain;
+}
+.Content-Mensaje {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	display: block;
+	background:#E7F3DA;
+}
+.Content-Mensaje p {
+	padding: 30px;
+}
+.Content-Alerta {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	display: block;
+	background:#FFF9C3;
+}
+.Content-Alerta p {
+    font-family: 'Arimo-Bold';
+	font-size: 20px;
+	color: #5B5B5F;
+	text-align: center;
+	padding: 30px;
+	background:url(../images/icon_warning.svg) no-repeat 20% 50%;
+}
+.Content-Error {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	display: block;
+	background:#FFDBD4;
+}
+.Content-Error p {
+    font-family: 'Arimo-Bold';
+	font-size: 20px;
+	color: #5B5B5F;
+	text-align: center;
+	padding: 30px;
+	background:url(../images/icon_error.svg) no-repeat 20% 50%;
+}
+.Content-Info {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	display: block;
+	background:#D3E9FF;
+}
+.Content-Info p {
+    font-family: 'Arimo-Bold';
+	font-size: 20px;
+	color: #5B5B5F;
+	text-align: center;
+	padding: 30px;
+	background:url(../images/icon_info.svg) no-repeat 20% 50%;
+}
+.Content-Ok {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	display: block;
+	background:#D5F2B5;
+}
+.Content-Ok p {
+    font-family: 'Arimo-Bold';
+	font-size: 20px;
+	color: #5B5B5F;
+	text-align: center;
+	padding: 30px;
+	background:url(../images/icon_ok.svg) no-repeat 20% 50%;
+}
+.Content-Teclado {
+	width: 80%;
+	height: 142px;
+	margin: 0px auto;
+	display: block;
+	padding: 50px 0px 30px 0px;
+	background:url(../images/teclado_login.png) no-repeat 50% 100%;
+}
+.Content-Cancel {
+	width: 90%;
+	height: 65px;
+	margin: 0px auto;
+	display: block;
+	text-align: center;
+	padding-top: 25px;
+}
+.Content-Cancel a {
+    font-family: 'Arimo';
+	font-size: 18px;
+	color: #5B5B5F;
+	text-align: center;
+	line-height: 22px;
+	text-decoration: none;
+}
+.Content-Cancel a:hover {
+	text-decoration: underline;
+}
+.Content-Legals {
+	width: 40%;
+	margin: 0px auto;
+	display: block;
+}
+.Content-Legals p {
+    font-family: 'Arimo';
+	font-size: 14px;
+	color: #5B5B5F;
+	text-align: center;
+	line-height: 24px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	#Wrap-Login {
+		max-width:1024px;
+		height: auto;
+	}
+	.Login-Right {
+		height:768px;
+	}
+	.Login-left {
+		height:768px;
+	}
+
+	.Login-Box {
+		margin-top: 20px;
+	}
+	.Wrap-Content {
+		max-width:1024px;
+	}
+	.Content-Box {
+		width:46%;
+	}
+	.Content-Legals {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	
+	.w-hidden-main {
+		display: inherit !important;
+	}
+	.w-hidden-medium {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.w-hidden-main {
+		display: inherit !important;
+	}
+	.w-hidden-medium {
+		display: inherit !important;
+	}
+	.w-hidden-small {
+		display: none !important;
+	}
+	.Login-left {
+		height:auto;
+	}
+	#Wrap-Login {
+		max-width:auto;
+		height: auto;
+	}
+	.Login-Right {
+		width:100%;
+		height:auto;
+		margin: 0px auto;
+		display: block;
+	}
+	.Login-Box {
+		width:60%;
+	}
+	.Wrap-Header {
+		max-width:100%;
+		background:url(../images/invesbot_logo.png) no-repeat 95% 15%;
+		background-size: 15%
+	}
+	.Wrap-Header h1 {
+		width: 50%;
+		margin: 0px auto;
+		font-size: 32px;
+		line-height: 32px;
+		padding-top: 40px;
+	}
+	.Wrap-Header h2 {
+		width: 85%;
+		margin-top: 50px;
+	}
+	.Header-Box-Text {
+		width: 85%;
+	}
+	.Path-StepOne {
+		margin-top: 25px;
+	}
+	.Path-StepTwo {
+		margin-top: 25px;
+	}
+	.Path-StepThree {
+		margin-top: 25px;
+	}
+	.Path-StepFour {
+		margin-top: 25px;
+	}
+	.Path-StepFive {
+		margin-top: 25px;
+	}
+	.Path-StepSix{
+		margin-top: 25px;
+	}
+	.Content-Box {
+		width:65%;
+	}
+	.Content-wrap {
+		width: 70%;
+	}
+	.Content-Legals {
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	
+	.w-hidden-main {
+		display: inherit !important;
+	}
+	.w-hidden-medium {
+		display: inherit !important;
+	}
+	.w-hidden-small {
+		display: inherit !important;
+	}
+	.w-hidden-tiny {
+		display: none !important;
+	}
+	.Login-Box {
+		width:90%;
+	}
+	.Wrap-Header {
+		max-width:100%;
+		background:url(../images/invesbot_logo.png) no-repeat 50% 5%;
+		background-size: 30%
+	}
+	.Wrap-Header h1 {
+		width: 80%;
+		margin: 0px auto;
+		padding-top: 70px;
+	}
+	.Wrap-Header h2 {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.Header-Box-Text {
+		margin-top: 35px;
+	}
+	.Path-StepOne {
+		width: 70%;
+		margin-top: 15px;
+		background:url(../images/progress_bar_2.svg) no-repeat 50% 50%;
+		background-size: contain;
+	}
+	.Path-StepTwo {
+		width: 70%;
+		margin-top: 15px;
+		background:url(../images/progress_bar_2a.svg) no-repeat 50% 50%;
+		background-size: contain;
+	}
+	.Path-StepThree {
+		width: 70%;
+		margin-top: 15px;
+		background:url(../images/progress_bar_2b.svg) no-repeat 50% 50%;
+		background-size: contain;
+	}
+	.Path-StepFour{
+		width: 70%;
+		margin-top: 15px;
+		background:url(../images/progress_bar_2c.svg) no-repeat 50% 50%;
+		background-size: contain;
+	}
+	.Path-StepFive {
+		width: 70%;
+		margin-top: 15px;
+		background:url(../images/progress_bar_2d.svg) no-repeat 50% 50%;
+		background-size: contain;
+	}
+	.Path-StepSix {
+		width: 70%;
+		margin-top: 15px;
+		background:url(../images/progress_bar_2e.svg) no-repeat 50% 50%;
+		background-size: contain;
+	}
+	.Content-Box {
+		width:90%;
+	}
+	.Content-wrap {
+		width: 80%;
+	}
+	.Content-Box h2 {
+		font-size: 15px;
+	}
+	.Content-button {
+		width: 90%;
+	}
+	.Content-Legals {
+		width: 85%;
+	}
+	.Content-Alerta p {
+		background:url(../images/icon_warning.svg) no-repeat 5% 50%;
+	}
+	.Content-Error p {
+		background:url(../images/icon_error.svg) no-repeat 5% 50%;
+	}
+	.Content-Info p {
+		background:url(../images/icon_info.svg) no-repeat 5% 50%;
+	}
+	.Content-Ok p {
+		background:url(../images/icon_ok.svg) no-repeat 5% 50%;
+	}
+	.button-yellow {
+		background-size: 15%;
+	}
+	.button-yellow.hover {
+		background-size: 15%;
+	}
+	.button-yellow.active {
+		background-size: 15%;
+	}
+	.button-yellow.disabled {
+		background-size: 15%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	
+	.w-hidden-main {
+		display: inherit !important;
+	}
+	.w-hidden-medium {
+		display: inherit !important;
+	}
+	.w-hidden-small {
+		display: inherit !important;
+	}
+	.w-hidden-tiny {
+		display: none !important;
+	}
+	.Login-LogoTop {
+		width:220px;
+		height:80px;
+		padding: 15px 0px 15px 0px;
+	}
+	.Wrap-Header h1 {
+		font-size: 24px;
+	}
+	.Wrap-Header h2 {
+		font-size: 16px;
+	}
+	.Path-StepOne {
+		width: 80%;
+	}
+	.Path-StepTwo {
+		width: 80%;
+	}
+	.Path-StepThree {
+		width: 80%;
+	}
+	.Path-StepFour {
+		width: 80%;
+	}
+	.Path-StepFive {
+		width: 80%;
+	}
+	.Path-StepSix {
+		width: 80%;
+	}
+	.Content-Box {
+		width:90%;
+	}
+	.Content-wrap {
+		width: 85%;
+	}
+	.Content-Box h2 {
+		font-size: 14px;
+	}
+	.Content-button {
+		width: 95%;
+	}
+	.Content-Legals p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
