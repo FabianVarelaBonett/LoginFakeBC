@@ -50,7 +50,7 @@ export default {
     async sendToken () {
       const response = await LoginService.fetchLogin(this.input.token)
       this.login = response.data
-      this.$router.push({ name: 'Response', query: { token: this.login.token } })
+      this.$router.push({ name: 'Response', query: { success: true, token: this.login.token } })
     }
   }
 }
