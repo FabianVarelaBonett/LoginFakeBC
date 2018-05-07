@@ -11,8 +11,6 @@
         </div>
       </div>
     </form>
-    <br />
-    <span>{{login.token}}</span>
   </div>
 </template>
 
@@ -22,7 +20,7 @@ export default {
   name: 'Login',
   data () {
     return {
-      msg: 'Login Bancolombia with response in DOM',
+      msg: 'Login Bancolombia with response in Query String',
       login: [],
       input: {
         token: ''
@@ -33,6 +31,7 @@ export default {
     async sendToken () {
       const response = await LoginService.fetchLogin(this.input.token)
       this.login = response.data
+      this.$router.push({ name: 'LoginQS', query: { token: this.login.token } })
     }
   }
 }
